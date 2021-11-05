@@ -8,6 +8,10 @@ public class Cliente {
     private String direccion;
     private int telefono;
 
+    public Cliente(){
+
+    }
+
     public Cliente(String nif, String nombre, String ciudad, String direccion, int telefono) {
         this.setNif(nif);
         this.setNombre(nombre);
